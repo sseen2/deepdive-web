@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+header {
+    background: blue;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+nav {
+    background: red;
+    padding: 1%;
+}
+
+.container {
+    display: flex;
+}
+
+section {
+    background: green;
+    flex: 3;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section article {
+    padding-bottom: 10%;
+}
+
+aside {
+    background: beige;
+    flex: 0.5;
+}
+
+footer {
+    background: mediumpurple;
+}
